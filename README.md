@@ -1,4 +1,5 @@
-try_convert
+Try Convert
 ===========
 
-A ruby gem to make #to_str, #to_ary, and friends a bit more... friendly.
+A ruby gem that adds some missing `#try_convert` methods to classes where it could be useful.
+
