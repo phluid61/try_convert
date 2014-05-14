@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'try_convert'
-  s.version = '0.1'
+  s.version = '0.2'
   s.date    = '2014-05-14'
   s.summary = 'A less violent alternative to Integer(o)'
   s.description = 'Provides an equivalent to Regexp::try_convert fo several other core classes.'

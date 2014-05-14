@@ -51,5 +51,25 @@ class Test_try_convert < MiniTest::Unit::TestCase
 			assert_nil( Integer.try_convert(arg) )
 		end
 	end
+	def test_try_convert_proc
+		p = proc{}
+		l = ->{}
+		ins = :inspect.to_proc
+		good = [
+			[ p, p ],
+			[ l, l ],
+			[ :inspect, ins ],
+		]
+		bad = [
+			nil,
+			Object.new
+		]
+		good.each do |arg, exp|
+			assert_equal( exp, Proc.try_convert(arg) )
+		end
+		bad.each do |arg|
+			assert_nil( Proc.try_convert(arg) )
+		end
+	end
 end
 
