@@ -34,3 +34,6 @@ Integer.try_convert(obj)
 Proc.try_convert(obj)
 ```
 
+* [Contributor Code of Conduct](code_of_conduct.md)
+* [![Build Status](https://secure.travis-ci.org/phluid61/try_convert.png)](http://travis-ci.org/phluid61/try_convert)
+* [![Gem Version](https://badge.fury.io/rb/try_convert.png)](http://badge.fury.io/rb/try_convert)
