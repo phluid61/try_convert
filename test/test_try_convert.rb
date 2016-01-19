@@ -56,16 +56,16 @@ class Test_try_convert < Test::Unit::TestCase
 		l = ->{}
 		ins = :inspect.to_proc
 		good = [
-			[ p, p ],
-			[ l, l ],
-			[ :inspect, ins ],
+			[ proc{} ],
+			[ ->{} ],
+			[ :inspect ],
 		]
 		bad = [
 			nil,
 			Object.new
 		]
 		good.each do |arg, exp|
-			assert_equal( exp, Proc.try_convert(arg) )
+			assert_instance_of( Proc, Proc.try_convert(arg) )
 		end
 		bad.each do |arg|
 			assert_nil( Proc.try_convert(arg) )
