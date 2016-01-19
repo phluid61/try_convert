@@ -1,11 +1,11 @@
-require 'minitest/unit'
+require 'test/unit'
 
 $VERBOSE = true
-require "#{File.dirname File.dirname(__FILE__)}/lib/try_convert"
-class Test_try_convert < MiniTest::Unit::TestCase
+require_relative '../lib/try_convert'
+class Test_try_convert < Test::Unit::TestCase
 	def test_try_convert_float
 		good = [
-			[ 3.13, 3.14 ], # Float
+			[ 3.14, 3.14 ], # Float
 			[ 42, 42.0 ],   # Fixnum
 			# TODO: Bignum?
 			[ Rational(1,2), 0.5 ], # to_f
