@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'try_convert'
-  s.version = '1.0'
+  s.version = '1.0.0'
   s.date    = '2019-12-06'
   s.summary = 'A ruby gem that adds some missing try_convert methods.'
   s.description = 'Provides ::try_convert to several core classes.'
