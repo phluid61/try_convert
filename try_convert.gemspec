@@ -9,5 +9,5 @@ Gem::Specification.new do |s|
   s.files   = ['lib/try_convert.rb']
   s.requirements = []
   s.homepage = 'https://rubygems.org/gems/try_convert'
-  s.license = 'ISC License'
+  s.license = 'ISC'
 end
