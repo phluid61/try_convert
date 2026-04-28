@@ -37,6 +37,17 @@ Integer.try_convert(obj)
 Proc.try_convert(obj)
 ```
 
-* [Contributor Code of Conduct](code_of_conduct.md)
-* [![Build Status](https://secure.travis-ci.org/phluid61/try_convert.png)](http://travis-ci.org/phluid61/try_convert)
-* [![Gem Version](https://badge.fury.io/rb/try_convert.png)](http://badge.fury.io/rb/try_convert)
+## Contributor Code of Conduct
+
+This repository is subject to a [Contributor Code of Conduct](code_of_conduct.md)
+adapted from the [Contributor Covenant][cc], version 3.0, available at
+<https://www.contributor-covenant.org/version/3/0/>
+
+
+[cc]: https://www.contributor-covenant.org
+
+
+## Licence
+
+This project is licensed under the ISC licence. See [LICENSE](LICENSE)
+for details
