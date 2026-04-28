@@ -1,6 +1,9 @@
 Try Convert
 ===========
 
+[![Gem Version](https://badge.fury.io/rb/try_convert.png)](http://badge.fury.io/rb/try_convert)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v3.0%20adopted-ff69b4.svg)](code_of_conduct.md)
+
 A ruby gem that adds some missing `::try_convert` methods to classes where it could be useful.
 
 Rationale
